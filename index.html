@@ -7,13 +7,14 @@
     <meta name="description" content="Curriculum Vitae / CV for Brad Pitt including a Photo / Picture ,
     bio / biography, movies / films starred in and awards won / nominated for.">
     <title>CV - Brad Pitt</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <link rel="stylesheet" href="style.css">
-
     <main id="outer-flex-container"><!-- primary flex container -->
 
-        <header id="header">Curriculum Vitae</header><!-- Header -->
+        <header>
+            <h1 id="header">Curriculum Vitae</h1>
+        </header><!-- Header -->
 
         <div id="line"></div>
     
@@ -23,7 +24,7 @@
                 <img id="brad-pitt" src="brad-pitt.jpeg">
             </figure>
     
-            <article id="biography">
+            <section id="biography">
                 <p id="biop">My name is Brad Pitt. I am an actor from Shawnee, Oklahoma, 
                 though I now live in Los Angeles like every other actor.</p>
                 
@@ -38,7 +39,7 @@
                 In my spare time, I enjoy philantropy, architecture, and skateboarding. 
                 In my work with the Make It Right Foundation, I get to combine at least two 
                 of these interests—sometimes all three!</p>
-            </article>    
+            </section>    
     
         </section><!-- end of photobiography container -->
 
@@ -46,38 +47,48 @@
 
         <section id="moviesawards"><!-- Movies + Awards container-->
     
-            <article id="movies">
-                <header id="bodyheader"><strong>Movies</strong></header>
-                <ol id="movielist"><strong>◈ </strong>Once Upon a Time... In Hollywood (2019)</ol>
-                <ol id="movielist"><strong>◈ </strong>The Big Short (2015)</ol>
-                <ol id="movielist"><strong>◈ </strong>World War Z (2013)</ol>
-                <ol id="movielist"><strong>◈ </strong>Moneyball (2011)</ol>
-                <ol id="movielist"><strong>◈ </strong>The Curious Case of Benjamin Button (2008)</ol>
-                <ol id="movielist"><strong>◈ </strong>Babel (2006)</ol>
-                <ol id="movielist"><strong>◈ </strong>Troy (2004)</ol>
-                <ol id="movielist"><strong>◈ </strong>Ocean's Eleven (2001)</ol>
-                <ol id="movielist"><strong>◈ </strong>Fight Club (1999)</ol>
-                <ol id="movielist"><strong>◈ </strong>12 Monkeys (1995)</ol>
-                <ol id="movielist"><strong>◈ </strong>Se7en (1995)</ol>
-                <ol id="movielist"><strong>◈ </strong>Thelma & Louise (1991)</ol>
-            </article>
+            <section id="movies">
+                <header>
+                    <h2 id="bodyheader">Movies</h2>
+                </header>
+                <ol>
+                    <li><strong>◈ </strong>Once Upon a Time... In Hollywood (2019)</li>
+                    <li><strong>◈ </strong>The Big Short (2015)</li>
+                    <li><strong>◈ </strong>World War Z (2013)</li>
+                    <li><strong>◈ </strong>Moneyball (2011)</li>
+                    <li><strong>◈ </strong>The Curious Case of Benjamin Button (2008)</li>
+                    <li><strong>◈ </strong>Babel (2006)</li>
+                    <li><strong>◈ </strong>Troy (2004)</li>
+                    <li><strong>◈ </strong>Ocean's Eleven (2001)</li>
+                    <li><strong>◈ </strong>Fight Club (1999)</li>
+                    <li><strong>◈ </strong>12 Monkeys (1995)</li>
+                    <li><strong>◈ </strong>Se7en (1995)</li>
+                    <li><strong>◈ </strong>Thelma & Louise (1991)</li>
+                </ol>
+            </section>
     
-            <artice id="awards">
-                <header id="bodyheader"><strong>Awards</strong></header>
-                <ol><strong>◈ Winner:</strong> Academy Award for Best Supporting Actor, Once Upon a Time... In Hollywood (2019)</ol>
-                <ol><strong>◈ Winner:</strong> Academy Award for Best Motion Picture (as producer), 12 Years a Slave (2013)</ol>
-                <ol><strong>◈ Winner:</strong> Golden Globe for Best Supporting Actor, Twelve Monkeys (1995)</ol>
-                <ol><strong>◈ Nominee:</strong> Academy Award for Best Motion Picture (as producer), The Big Short (2015)</ol>
-                <ol><strong>◈ Nominee:</strong> Academy Award for Best Actor, Moneyball (2011)</ol>
-                <ol><strong>◈ Nominee:</strong> Academy Award for Best Actor, The Curious Case of Benjamin Button (2008)</ol>
-                <ol><strong>◈ Nominee:</strong> Golden Globe for Best Actor, The Curious Case of Benjamin Button (2008)</ol>
-            </article>
+            <section id="awards">
+                <header>
+                    <h2 id="bodyheader">Awards</h2>
+                </header>
+                <ol>
+                    <li><strong>◈ Winner:</strong> Academy Award for Best Supporting Actor, Once Upon a Time... In Hollywood (2019)</li>
+                    <li><strong>◈ Winner:</strong> Academy Award for Best Motion Picture (as producer), 12 Years a Slave (2013)</li>
+                    <li><strong>◈ Winner:</strong> Golden Globe for Best Supporting Actor, Twelve Monkeys (1995)</li>
+                    <li><strong>◈ Nominee:</strong> Academy Award for Best Motion Picture (as producer), The Big Short (2015)</li>
+                    <li><strong>◈ Nominee:</strong> Academy Award for Best Actor, Moneyball (2011)</li>
+                    <li><strong>◈ Nominee:</strong> Academy Award for Best Actor, The Curious Case of Benjamin Button (2008)</li>
+                    <li><strong>◈ Nominee:</strong> Golden Globe for Best Actor, The Curious Case of Benjamin Button (2008)</li>
+                </ol>
+            </section>
         </section><!-- end of moviesawards container-->
 
         <div id="line"></div>
 
         <footer id="footer">
-            <header id="bodyheader">Contact</header>
+            <header>
+                <h2 id="bodyheader">Contact</h2>
+            </header>
             <p id="footerp">Brad Pitt</p>
             <p id="footerp">123 Hollywood Blvd.</p>
             <p id="footerp">CA 45678 USA</p>
