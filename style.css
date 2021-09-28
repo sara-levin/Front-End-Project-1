@@ -139,6 +139,6 @@ ol {
 
 @media screen and ( max-width: 1200px) {
     #photobiography  { flex-direction: column;}
-    
+    #biography {padding-right:10px ; padding-left: 10px;}
     #moviesawards  { flex-direction: column; }
 }
